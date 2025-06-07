@@ -222,7 +222,7 @@ colData(cptac) <- colData(cptac[[1]])
 table(rowData(cptac_se)$Reverse)
 table(rowData(cptac_se)$Potential.contaminant)
 
-ctpac <- cptac |>
+cptac <- cptac |>
     filterFeatures(~ Reverse != "+") |>
     filterFeatures(~ Potential.contaminant != "+") |>
     filterFeatures(~ PEP < 0.05)

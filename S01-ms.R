@@ -27,4 +27,4 @@ f <- pxget(px, "TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01-20141210.m
 library(msdata)
 proteomics()
 ident()
-quand()
+quant()
